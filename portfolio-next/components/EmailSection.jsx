@@ -11,24 +11,21 @@ const EmailSection = () => {
 
     return (
         <main className="grid md:grid-cols-2 my-12 md:my-12 py-24 md:py-24 gap-4 relative" id="contact">
-            <div className="z-10">
-                <h5 className="text-4xl font-bold text-white my-2 ">Let's Connect</h5>
-                <p className="text-[#ADB7BE] mb-4 max-w-md mt-8 text-justify">
-                I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-                </p>
-                <h4 className="pb-3 mt-6">Let's get in touch!</h4>
-                <div className=" flex flex-row gap-4 mt-6">
-                    <Link href="https://github.com/cheongyeechian">
+            <div className="">
+                <h5 className="text-4xl font-bold text-white my-2 underline decoration-solid ">Links</h5>
+                <h4 className="pb-3 mt-10">Let's get in touch!</h4>
+                <div className=" flex flex-row gap-6 mt-10">
+                    <Link href="https://github.com/Cryogas" target="-blank">
                         <Image src={GithubIcon} alt="Github Icon" />
                     </Link>
-                    <Link href="https://www.linkedin.com/in/cheong-yee-chian-525400219/">
-                        <Image src={LinkedinIcon} alt="Linkedin Icon" />
+                    <Link href="https://www.linkedin.com/in/hg-lim-925ab3271/" target="blank" className="invert">
+                        <Image src={LinkedinIcon} alt="Linkedin Icon" className="h-12 w-auto"/>
                     </Link>
-                    <Link href="https://www.instagram.com/yeechian_04/" className="mt-1">
-                        <Image src={InstagramIcon}/>
+                    <Link href="https://www.instagram.com/h_g.lim/" target="blank"  className="mt-1 invert">
+                        <Image src={InstagramIcon} className="h-10 w-auto"/>
                     </Link>
-                    <Link href="mailto:cheongyeechian@gmail.com" className="mt-1">
-                        <Image src={GmailIcon}/>
+                    <Link href="mailto:hgthelim@gmail.com" className="mt-0 ml-1">
+                        <Image src={GmailIcon} />
                     </Link>
 
                 </div>
