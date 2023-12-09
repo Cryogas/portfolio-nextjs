@@ -12,17 +12,18 @@ const HeroSection = dynamic(
   { ssr: false }
 );
 
+// Done: Footer, EmailSection
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col ">
         <main>
-        <HeroSection />
-        <AchievementsSection />
-        <AboutMe />
-        <Projects />
-        <EmailSection />
+          <HeroSection />
+          <AchievementsSection />
+          <AboutMe />
+          <Projects />
+          <EmailSection />
         </main>
-        <Footer />
+        <Footer /> 
     </div>
   );
 }
