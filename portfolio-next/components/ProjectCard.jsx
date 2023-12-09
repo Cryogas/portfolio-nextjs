@@ -8,7 +8,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl}) => {
         <div>
             {/* <Image src={imgUrl} height={208} width={1000} className="md:h-72 hover:opacity-30 object-contain bg-no-repeat bg-center rounded-t-xl"/> */}
             <div
-            className="rounded-xl relative group center center bg-no-repeat transition duration-1000 hover:border-2 border-sky-400 sm:h-80 md:h-52 md:w-96 lg:h-72 lg:w-auto xl:h-80 xl:w-auto 2xl:w-auto 2xl:h-64"
+            className="rounded-xl relative group center center bg-no-repeat transition duration-1000 hover:border-2 border-sky-400 h-64 sm:h-80 md:h-52 md:w-96 lg:h-72 lg:w-auto xl:h-80 xl:w-auto 2xl:w-auto 2xl:h-64"
             style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}>
 
                 <div className="overlay rounded-xl items-center justify-center top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">

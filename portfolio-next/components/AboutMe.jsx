@@ -9,13 +9,11 @@ const TAB_DATA = [
         id: "skills",
         content: (
           <ul className="list-disc pl-2">
+                <li>HTML</li>
+                <li>CSS & Tailwind CSS</li>
+                <li>JavaScript</li>
                 <li>React</li>
                 <li>Next.js</li>
-                <li>JavaScript</li>
-                <li>Solidity</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Tailwind CSS</li>
                 <li>Python</li>
           </ul>
         ),
@@ -25,17 +23,8 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
-            <li>ETH Singapore</li>
-            <li>ETH KL</li>
-            <li>ETH Online</li>
-            <li>ETHGlobal Superhack</li>
             <li>Solana Hyperdrive</li>
             <li>APUBCC Sparkathon</li>
-            <li>Encode Club</li>
-            <li>Google CTF</li>
-            <li>NUS Grey CTF</li>
-            <li>Tune Protect Hackathon</li>
-            <li>geNFesT Ideathon</li>
           </ul>
         ),
     },
@@ -45,7 +34,7 @@ const TAB_DATA = [
         content: (
           <ul className="list-disc pl-2">
                 <li>Asia Pacific University</li>
-                <li>Tsun Jin High School</li>
+                <li>Chong Hwa Independent High School</li>
           </ul>
         ),
     }
@@ -63,16 +52,18 @@ const AboutMe = () => {
     //1a
     return(
         <section className="text-white grid" id="aboutMe">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
+            <div className="grid grid-cols-1  md:grid-cols-2 gap-32 md:px-10 py-24 xl-gap-16 items-start">
                 <div>
-                    <img src="/AboutMe.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }}/>
+                    <img src="/AboutMe.png" alt="About Me" className="ml-auto mr-auto"  width={450} height={450} style={{ borderRadius: "25px"}}/>
                 </div>
-                <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-                    <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Cyber Security at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in React, Next.js, HTML, CSS, and I'm skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
-                        Additionally, I've ventured into the world of blockchain development, particularly with Solidity, allowing me to build smart contracts for decentralized applications.
-                        My passion for technology and problem-solving has led me to actively participate in 11 hackathons this year, where I primarily serve as a Front End Developer. However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
-                    <div className="flex flex-row mt-8">
+                <div className="mt-4 mb-4 md:mt-0 text-left flex flex-col h-full">
+                    <h1 className="text-7xl md:text-3xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mb-4">About Me</h1>
+                    <p className="text-base font-semibold lg:text-lg mt-2">- Currently a CyberSecurity Student.</p>
+                    <p className="text-lg font-semibold md:text-m text-justified lg:text-lg mt-8">- Started with <span className=" text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 via-blue-300 to-yellow-200">zero</span> knowledge in coding on  
+                    <span className=" text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"> JULY'23</span> but I have gained a lot of frontend developer skills by attending events and lots of hands-on practices.</p>
+                    <p className="text-base text-center lg:text-lg"></p>
+                    <p className="text-base text-center lg:text-lg"></p>
+                    <div className="flex flex-row mt-16">
 {/* 1e */}
                         <TabButton 
                         selectTab={() => handleTabChange("skills")}
