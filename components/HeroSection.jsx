@@ -49,8 +49,8 @@ const HeroSection = () => {
                 </p>
                 <Link
                     href="#projects" 
-                    className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
-                    <span className="text-xl text-white">Projects</span>
+                    className="px-12 mb-4 inline-block py-3 rounded-lg mr-4 border-solid border-2 border-indigo-600 transition duration-500 hover:bg-violet-950">
+                    <span className="text-xl text-gray-400 transistion duration-500 hover:text-white">Projects</span>
                 </Link>
 
                 {/* <Link
