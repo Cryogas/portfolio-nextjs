@@ -7,7 +7,7 @@ const projectData = [
         id: 1,
         title: "Business Card",
         description: "My First FrontEnd project.",
-        image: "/projects/linkedout&about.png",
+        image: "/projects/businesscard.png",
         gitUrl: "https://github.com/Cryogas/business-card"
 
     },
