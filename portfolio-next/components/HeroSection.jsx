@@ -17,14 +17,14 @@ const HeroSection = () => {
             >
                 <h1 className="font-extrabold">
                 {/* span text seperator -- for design*/}
-                <span className="text-white text-8xl 2xl:text-9xl">
+                <span className="text-white text-8xl md:text-6xl 2xl:text-9xl">
                     Hello, I'm{" "} 
                     {/* <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                     Hock Guan
                     </span> */}
                 </span>
                 <br></br>
-                <span className="text-6xl 2xl:text-9xl">
+                <span className="text-7xl xl:9xl 2xl:text-8xl">
                 <TypeWritter
                     options={{
                         autoStart: true,
@@ -69,9 +69,9 @@ const HeroSection = () => {
                 <img
                 src="/Hero-Section1.png"
                 alt="hero section"
-                className=" transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 md: h-auto"
-                width={450}
-                height={450}
+                className=" transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 w-80 md:w-64 lg:w-96"
+                // width={250}
+                // height={450}
                 />
             </div>
             </motion.div>

@@ -8,34 +8,34 @@ const TAB_DATA = [
         title: "Skills",
         id: "skills",
         content: (
-          <ul className="list-disc pl-2">
-                <li>HTML</li>
-                <li>CSS & Tailwind CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Python</li>
-          </ul>
+            <ul className="list-disc pl-2">
+                    <li>HTML</li>
+                    <li>CSS & Tailwind CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Next.js</li>
+                    <li>Python</li>
+            </ul>
         ),
     },
     {
         title: "Experiences",
         id: "experiences",
         content: (
-          <ul className="list-disc pl-2">
-            <li>Solana Hyperdrive</li>
-            <li>APUBCC Sparkathon</li>
-          </ul>
+            <ul className="list-disc pl-2">
+                <li>Solana Hyperdrive</li>
+                <li>APUBCC Sparkathon</li>
+            </ul>
         ),
     },
     {
         title: "Education",
         id: "education",
         content: (
-          <ul className="list-disc pl-2">
-                <li>Asia Pacific University</li>
-                <li>Chong Hwa Independent High School</li>
-          </ul>
+            <ul className="list-disc pl-2">
+                    <li>Asia Pacific University</li>
+                    <li>Chong Hwa Independent High School</li>
+            </ul>
         ),
     }
 ];

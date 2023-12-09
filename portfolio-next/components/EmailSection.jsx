@@ -14,7 +14,7 @@ const EmailSection = () => {
             <div className="">
                 <h5 className="text-4xl font-bold text-white my-2 underline decoration-solid ">Links</h5>
                 <h4 className="pb-3 mt-10">Let's get in touch!</h4>
-                <h4 className="pb-3 mt-2">For collabs or </h4>
+                <h4 className="pb-3 mt-2">All my links (work or collaboration): </h4>
                 <div className=" flex flex-row gap-6 mt-10">
                     <Link href="https://github.com/Cryogas" target="-blank">
                         <Image src={GithubIcon} alt="Github Icon" />
