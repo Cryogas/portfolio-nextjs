@@ -59,8 +59,8 @@ const AboutMe = () => {
                 <div className="mt-4 mb-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-7xl md:text-3xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 mb-4">About Me</h1>
                     <p className="text-base font-semibold lg:text-lg mt-2">- Currently a CyberSecurity Student.</p>
-                    <p className="text-lg font-semibold md:text-m text-justified lg:text-lg mt-8">- Started with <span className=" text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 via-blue-300 to-yellow-200">zero</span> knowledge in coding on  
-                    <span className=" text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"> JULY'23</span> but I have gained a lot of frontend developer skills by attending events and lots of hands-on practices.</p>
+                    <p className="text-lg font-semibold md:text-m text-justified lg:text-lg mt-8">- Started with <span className=" text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 via-blue-300 to-yellow-200">zero</span> knowledge in coding 
+                    but I have gained a lot of frontend developer skills by attending events and lots of hands-on practices.</p>
                     <p className="text-base text-center lg:text-lg"></p>
                     <p className="text-base text-center lg:text-lg"></p>
                     <div className="flex flex-row mt-16">
