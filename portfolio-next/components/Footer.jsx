@@ -1,13 +1,12 @@
 import React from "react";
 
 const Footer = () => {
-    return(
-        <footer className="w-full border-t border-[#33353F]">
-            <div className="mb-14 w-full container mx-auto p-4 flex justify-between items-center text-slate-400">
-                <span className="">Yee Chian</span>
-                <p>Copyright &copy; All rights reserved</p>
-            </div>
+    return (
+        <footer className="w-full border-t border-[#33353F] flex p-4 mb-12 justify-between items-center text-slate-400">
+        <p className="">LIM HOCK GUAN</p>
+        <p className="text-right">Copyright &copy; All rights reserved</p>
         </footer>
     );
-};
+    };
+
 export default Footer;
