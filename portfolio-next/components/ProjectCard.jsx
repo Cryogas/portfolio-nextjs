@@ -13,6 +13,7 @@ const ProjectCard = ({imgUrl, title, description, gitUrl}) => {
 
                 <div className="overlay rounded-xl items-center justify-center top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
                     <Link
+                        target="blank"
                         href={gitUrl}
                         className="h-16 w-16 border-4 relative rounded-full border-[#ADB7BE] transition duration-300 hover:border-white group/link"
                     >

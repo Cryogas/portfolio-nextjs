@@ -13,7 +13,7 @@ const HeroSection = () => {
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
-                className="col-span-1 md:col-span-8 place-self-center justify-self-start"
+                className="col-span-1 md:col-span-8 md:gap-x-24 place-self-center justify-self-start"
             >
                 <h1 className="font-extrabold">
                 {/* span text seperator -- for design*/}
@@ -24,7 +24,7 @@ const HeroSection = () => {
                     </span> */}
                 </span>
                 <br></br>
-                <span className="text-7xl 2xl:text-9xl">
+                <span className="text-6xl 2xl:text-9xl">
                 <TypeWritter
                     options={{
                         autoStart: true,
@@ -65,11 +65,11 @@ const HeroSection = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5 }}
             >
-            <div className="w-[400px] h-[400px] relative z-0 mr-6 xl:mr-4 xl:ml-32">
+            <div className="w-[400px] h-[400px] relative z-0 mr-6 xl:mr-32 xl:ml-2">
                 <img
                 src="/Hero-Section1.png"
                 alt="hero section"
-                className=" transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                className=" transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 md: h-auto"
                 width={450}
                 height={450}
                 />
